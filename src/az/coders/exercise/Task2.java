@@ -2,7 +2,7 @@ package az.coders.exercise;
 
 import java.util.Scanner;
 
-public class Main {
+public class Task2 {
 
     public static void main(String[] args) {
         Scanner scanner= new Scanner(System.in);
@@ -25,7 +25,20 @@ public class Main {
         else
             System.out.println("EDED 0 dir");
 
-
     }
 
+     void diffrentCase(){
+        int a=5;
+        if(a>0){
+            System.out.println("A musbetdi");
+        }else if (a<0){
+            System.out.println("A menfidi");
+        }else System.out.println("A sifirdi");
+
+
+        if(a%2==0){
+            System.out.println("a cut ededdi");
+        }else System.out.println("A tekdi");
+
+     }
 }
