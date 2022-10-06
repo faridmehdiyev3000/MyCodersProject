@@ -3,7 +3,6 @@ package az.coders.exercise;
 import java.util.Scanner;
 
 public class SWITCJ {
-
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         int a=scanner.nextInt();
@@ -12,9 +11,7 @@ public class SWITCJ {
         System.out.println("emeliyyat faxil edin (+(1),-(2),*(3),/(4)");
         Scanner scanner3=new Scanner(System.in);
         int operation=scanner3.nextInt();
-        switch(operation)
-
-        {
+        switch(operation) {
             case 1:
                 System.out.println(a + b);
                 break;
