@@ -2,10 +2,11 @@ package az.coders.exercise;
 
 import java.util.Scanner;
 
-public class Palendrom {
+public class Palindrom {
     public static void main(String[] args){
         int r,cem=0;
         Scanner scanner5=new Scanner(System.in);
+        System.out.println("Eded daxil edin:");
         int n=scanner5.nextInt();
         int c=n;
         while(n>0){
