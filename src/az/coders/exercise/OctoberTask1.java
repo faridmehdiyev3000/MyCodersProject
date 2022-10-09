@@ -11,7 +11,7 @@ public class OctoberTask1 {
         int b=scanner2.nextInt();
         System.out.println("b-ni daxil edin");
         for( int i=a; i<=b;i++){
-            if(i /3==0 && i /7==0){
+            if(i %3==0 && i %7==0){
                 System.out.println(i);
 
             }
