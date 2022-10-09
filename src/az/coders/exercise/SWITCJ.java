@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class SWITCJ {
     public static void main(String[] args) {
+
         Scanner scanner=new Scanner(System.in);
         int a=scanner.nextInt();
         Scanner scanner2=new Scanner(System.in);
