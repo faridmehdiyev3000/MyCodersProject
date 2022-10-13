@@ -9,10 +9,13 @@ public class Task3 {
         int b = new Scanner(System.in).nextInt();
         for (int i = 0; i < a.length; i++) {
             if (a[i] == b) {
-                System.out.println(i);
-            }if (a[i] != b) {
+                System.out.println(i+1);
+                break;
+            }else if (a[i] != b) {
                 if ((a[i] <= b) && (b <= a[i + 2])){
-                    System.out.println(i+1);
+                    System.out.println(i+2);
+                    break;
+
 
             }
 
