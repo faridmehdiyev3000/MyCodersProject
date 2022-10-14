@@ -12,8 +12,8 @@ public class Task3 {
                 System.out.println(i);
                 break;
             }else if (a[i] != b) {
-                if ((a[i] <= b) && (b <= a[i + 2])){
-                    System.out.println(i+2);
+                if ((a[i] <= b) && (b <= a[i + 1])){
+                    System.out.println(i+1);
                     break;
 
 
