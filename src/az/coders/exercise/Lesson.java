@@ -11,7 +11,7 @@ public class Lesson {
         int[][] a = new int[b][c];
         for (int i = 0; i < b; i++) {
             for (int j = 0; j < c; j++) {
-                if (i <=j) {
+                if (i <=  j) {
                     System.out.print(a[i][j] = 1);
                 } else {
                     System.out.print(a[i][j] = 0);
