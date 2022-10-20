@@ -1,26 +1,44 @@
 package az.coders.exercise;
 
+import java.util.Locale;
+import java.util.Scanner;
+
 public class Lesson {
     public static void main(String[] args) {
-        int [][] array = {{ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9},
-                {10, 11, 12, 13, 14, 15, 16, 17, 18, 19},
-                {20, 21, 22, 23, 24, 25, 26, 27, 28, 29},
-                {30, 31, 32, 33, 34, 35, 36, 37, 38, 39},
-                {40, 41, 42, 43, 44, 45, 46, 47, 48, 49},
-                {50, 51, 52, 53, 54, 55, 56, 57, 58, 59},};
-        int total = 0;
+        int b = new Scanner(System.in).nextInt();
+        int c = new Scanner(System.in).nextInt();
 
-        for (int row = 0; row < array.length; row++)
-        {
-            for (int col = 0; col < array[row].length; col++)
-                total += array[row][col];
-            System.out.println(total);
+        int[][] a = new int[b][c];
+        for (int i = 0; i < b; i++) {
+            for (int j = 0; j < c; j++) {
+                if (i <=j) {
+                    System.out.print(a[i][j] = 1);
+                } else {
+                    System.out.print(a[i][j] = 0);
+                }
+
+            }System.out.println(" ");
+
+
+        }
     }
+}
 
 
 
-                    }
-            }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

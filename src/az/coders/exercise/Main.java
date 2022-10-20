@@ -25,11 +25,8 @@ public class Main {
         {
             System.out.println("Happy Number");
         }
-        else {
-            System.out.println("Not Happy Number");
+
         }
-
-
     }
-}
+
 
