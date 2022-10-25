@@ -8,7 +8,7 @@ public class Lesson2 {
         int c = new Scanner(System.in).nextInt();
 
         if (b - c == 1 || c - b == 1) {
-            System.out.println("3o derece");
+            System.out.println("30 derece");
 
         } else if (b - c == 2 || c - b == 2) {
             System.out.println("60 derece");
