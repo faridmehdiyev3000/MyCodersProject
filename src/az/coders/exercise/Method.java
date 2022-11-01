@@ -7,18 +7,7 @@ public class Method {
         System.out.println(result);
 
     }
-
-
-
-
-
-
-
-
-
-
-
-        public static double cem(char symbol,double a,double b) {
+    public static double cem(char symbol,double a,double b) {
 
 
             switch (symbol) {
