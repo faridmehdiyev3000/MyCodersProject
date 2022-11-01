@@ -2,7 +2,7 @@ package az.coders.exercise;
 
 public class Farid3 {
     public static void main(String[] args) {
-        suffling("jsjsjsj")
+        suffling("codeleet",)
     }
     public static String suffling(String s, int[] indices) {
         String res = " ";
