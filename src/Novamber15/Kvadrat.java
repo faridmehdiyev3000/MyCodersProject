@@ -5,7 +5,7 @@ public class Kvadrat implements HendesiFigur{
 
     @Override
     public double doubleSaheninTapilmasi(int a, int h) {
-        double f=a*a;
+        double f=Math.pow(a,a);
         return f;
     }
 }
