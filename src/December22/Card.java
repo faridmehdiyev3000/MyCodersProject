@@ -1,11 +1,9 @@
 package December22;
 
-import java.time.LocalDateTime;
-
 public class Card {
     public String folderName;
     public String cardNumber;
-    public LocalDateTime expertalDate;
+    public int expertalDate;
     public Integer cvv;
     public Double balance ;
     public Integer userId;
